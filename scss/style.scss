@@ -1,0 +1,104 @@
+/* FONTS */
+@import 'fonts';
+
+/* RESET STYLE */
+@import 'reset';
+
+// VARIABLES
+@import 'variables';
+
+// MIXINS
+@import 'mixins';
+
+// FUNCTION
+@import 'function';
+
+
+// ============================== START
+html, body{
+    height: 100%;
+    line-height: 1;
+    font-family: $font_ITC;
+    font-size: 62.5%;
+    @media (max-width: 991px) {
+        font-size: 55%;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 50%;
+    }
+    scroll-behavior: smooth;
+}
+// ==============================
+
+ 
+// ============================== BLOCKS
+[class*="__border"] {
+    max-width: $maxWidth;
+    margin: 0 auto;
+}
+
+section {
+    max-width: $maxWidth;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+// ==============================
+
+
+// ============================== HERO
+.hero {
+    // height: 69.9rem;
+    margin-top: 18.25%;
+    margin-bottom: 4.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .hero__subtitle {
+        font-size: 3.6rem;
+        font-weight: 300;
+        line-height: 4.3rem;
+        color: $color_first;
+        text-align: center;
+        margin-bottom: 1rem;
+        span {
+            font-style: italic;
+        }
+    }
+    .hero__title {
+        font-size: 7.6rem;
+        line-height: 9.1rem;
+        font-weight: 700;
+        color: $color_first;
+        text-align: center;
+        max-width: 102.9rem;
+        span {
+            color: $color_red_light;
+        }
+    }
+    .hero__img {
+        position: relative;
+        width: 54.307%;
+        height: 38.769%;
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+// ==============================
+
+
+// ==============================
+// ==============================
+
+
+// ==============================
+// ==============================

@@ -1,0 +1,160 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+@font-face {
+  font-family: 'ITC Garamond Condensed';
+  src: local("ITC Garamond Condensed Bold"), local("ITC-Garamond-Condensed-Bold"), url("../fonts/ITCGaramondStd-BdCond.woff2") format("woff2"), url("../fonts/ITCGaramondStd-BdCond.woff") format("woff"), url("../fonts/ITCGaramondStd-BdCond.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Garamond Condensed';
+  src: local("ITC Garamond Condensed Light"), local("ITC-Garamond-Condensed-Light"), url("../fonts/ITCGaramondStd-LtCond.woff2") format("woff2"), url("../fonts/ITCGaramondStd-LtCond.woff") format("woff"), url("../fonts/ITCGaramondStd-LtCond.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ITC Garamond Condensed';
+  src: local("ITC Garamond Condensed Light Italic"), local("ITC-Garamond-Condensed-Light-Italic"), url("../fonts/ITCGaramondStd-LtCondIta.woff2") format("woff2"), url("../fonts/ITCGaramondStd-LtCondIta.woff") format("woff"), url("../fonts/ITCGaramondStd-LtCondIta.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ITC Garamond Std';
+  src: local("ITC Garamond Bold"), local("ITC-Garamond-Bold"), url("../fonts/ITCGaramondStd-Bd.woff2") format("woff2"), url("../fonts/ITCGaramondStd-Bd.woff") format("woff"), url("../fonts/ITCGaramondStd-Bd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* RESET STYLE */
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  line-height: 1;
+  font-family: "ITC Garamond Condensed", serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 991px) {
+  html, body {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  html, body {
+    font-size: 50%;
+  }
+}
+
+[class*="__border"] {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+section {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.hero {
+  margin-top: 18.25%;
+  margin-bottom: 4.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero .hero__subtitle {
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 4.3rem;
+  color: #494949;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero .hero__subtitle span {
+  font-style: italic;
+}
+
+.hero .hero__title {
+  font-size: 7.6rem;
+  line-height: 9.1rem;
+  font-weight: 700;
+  color: #494949;
+  text-align: center;
+  max-width: 102.9rem;
+}
+
+.hero .hero__title span {
+  color: #E85E56;
+}
+
+.hero .hero__img {
+  position: relative;
+  width: 54.307%;
+  height: 38.769%;
+}
+
+.hero .hero__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

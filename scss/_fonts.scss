@@ -1,0 +1,39 @@
+//&display=swap
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+@font-face {
+  font-family: 'ITC Garamond Condensed';
+  src: local('ITC Garamond Condensed Bold'), local('ITC-Garamond-Condensed-Bold'),
+      url('../fonts/ITCGaramondStd-BdCond.woff2') format('woff2'),
+      url('../fonts/ITCGaramondStd-BdCond.woff') format('woff'),
+      url('../fonts/ITCGaramondStd-BdCond.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+  @font-face {
+    font-family: 'ITC Garamond Condensed';
+    src: local('ITC Garamond Condensed Light'), local('ITC-Garamond-Condensed-Light'),
+        url('../fonts/ITCGaramondStd-LtCond.woff2') format('woff2'),
+        url('../fonts/ITCGaramondStd-LtCond.woff') format('woff'),
+        url('../fonts/ITCGaramondStd-LtCond.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ITC Garamond Condensed';
+    src: local('ITC Garamond Condensed Light Italic'), local('ITC-Garamond-Condensed-Light-Italic'),
+        url('../fonts/ITCGaramondStd-LtCondIta.woff2') format('woff2'),
+        url('../fonts/ITCGaramondStd-LtCondIta.woff') format('woff'),
+        url('../fonts/ITCGaramondStd-LtCondIta.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'ITC Garamond Std';
+    src: local('ITC Garamond Bold'), local('ITC-Garamond-Bold'),
+        url('../fonts/ITCGaramondStd-Bd.woff2') format('woff2'),
+        url('../fonts/ITCGaramondStd-Bd.woff') format('woff'),
+        url('../fonts/ITCGaramondStd-Bd.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }

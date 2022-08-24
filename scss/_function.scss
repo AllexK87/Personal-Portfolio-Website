@@ -1,0 +1,8 @@
+// Font-weight
+@function font-weight($weight-name) {
+    @return map-get($font-weight, $weight-name)
+};
+
+@function size-window($size-name) {
+    @return map-get($map: $sizeP, $key: $size-name)
+}

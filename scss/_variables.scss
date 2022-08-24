@@ -1,0 +1,35 @@
+// Размеры
+$maxW: 1300;   // *Для миксинов 1280+10+10
+$maxWidth: $maxW + px;
+$minWidtch: 320px;
+
+$sizeP: (
+    "full": 62.5%,
+    "991": 55%,
+    "450": 50%
+);
+
+
+// Font-family
+$font_ITC:'ITC Garamond Condensed', serif;
+$font_Source: 'Source Sans Pro', sans-serif;
+
+
+// Color
+$color_first: #494949;
+$color_hero: #17281E;
+$color_red_light: #E85E56;
+
+
+// Breakpoint
+$breakpoint: (
+    "991": 991px,
+    "770": 770px,
+    "450": 450px,
+    "320": 320px
+);
+
+
+// Border
+$border-bold: .5rem solid #000;
+$border-light: .2rem solid #000;
