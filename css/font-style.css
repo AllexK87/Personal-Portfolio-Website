@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?m163l');
-  src:  url('../fonts/icomoon.eot?m163l#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?m163l') format('truetype'),
-    url('../fonts/icomoon.woff?m163l') format('woff'),
-    url('../fonts/icomoon.svg?m163l#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?qk9wi5');
+  src:  url('../fonts/icomoon.eot?qk9wi5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qk9wi5') format('truetype'),
+    url('../fonts/icomoon.woff?qk9wi5') format('woff'),
+    url('../fonts/icomoon.svg?qk9wi5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,65 +25,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ic-angle-pro:before {
-  content: "\e913";
-}
-.ic-angle:before {
-  content: "\e914";
-}
-.ic-phone:before {
-  content: "\e90f";
-}
 .ic-email:before {
-  content: "\e910";
+  content: "\e901";
 }
-.ic-location:before {
-  content: "\e911";
-}
-.ic-code:before {
+.ic-facebook:before {
   content: "\e902";
 }
-.ic-html:before {
+.ic-inst:before {
   content: "\e903";
 }
-.ic-css1:before {
-  content: "\e908";
-}
-.ic-css2:before {
-  content: "\e909";
-}
-.ic-js:before {
-  content: "\e90a";
-}
-.ic-sass:before {
-  content: "\e90b";
-}
-.ic-react:before {
-  content: "\e90c";
-}
-.ic-vuejs:before {
-  content: "\e90d";
-}
-.ic-node:before {
-  content: "\e90e";
-}
-.ic-git:before {
+.ic-phone:before {
   content: "\e904";
-}
-.ic-telega:before {
-  content: "\e905";
-}
-.ic-vk:before {
-  content: "\e906";
-}
-.ic-arrow-down:before {
-  content: "\e912";
 }
 .ic-bars1:before {
   content: "\e900";
-}
-.ic-bars2:before {
-  content: "\e901";
 }
 .ic-times:before {
   content: "\e907";

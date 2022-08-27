@@ -1,8 +1,12 @@
-// Font-weight
-@function font-weight($weight-name) {
-    @return map-get($font-weight, $weight-name)
-};
+// @function size-window($size-name) {
+//     @return map-get($map: $sizeP, $key: $size-name)
+// }
 
-@function size-window($size-name) {
-    @return map-get($map: $sizeP, $key: $size-name)
+@function rem($px) {
+    $num: $font_size_main/100*16;
+    @return $px/$num+rem;
+}
+
+@function percent($px, $perc) {
+    @return $px / $perc * 100%;
 }

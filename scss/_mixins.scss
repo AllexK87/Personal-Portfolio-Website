@@ -1,21 +1,26 @@
-//  Адаптивный шрифт
-@mixin adaptiv-font($pcSize, $mobSize) {
-    $addSize: $pcSize - $mobSize;
-    $maxW: $maxW - 320;
-    font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxW}));
-}
-
-// Grid
-@mixin grid($val) {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
-    gap: 1.5rem;
-}
-
-
-// Размер экрана
+// ========== SIZE ========================================
 @mixin sizeWindow($size) {
     @media (max-width: $size) {
         @content;
     }
+}
+
+
+// ========== FONT ========================================
+@mixin fontSizeMainPercent {
+    font-size: 62.5%;
+    @media (max-width: 991px) {
+        font-size: 55%;
+    }
+
+    @media (max-width: 450px) {
+        font-size: 50%;
+    }
+}
+
+
+// ========== GRID ========================================
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
 }
